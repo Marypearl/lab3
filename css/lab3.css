@@ -1,5 +1,7 @@
 body {
-    /* background-image: url("../images/background.jpg"); */
+    background-image: url("../images/background.jpg");
+    background-color: aqua;
+
 
 }
 
@@ -8,11 +10,90 @@ header {
     background-image: url(../images/sunset.jpg);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: cover;
+    text-align: left;
+    background-color: rgb(7, 7, 49);
 
 }
 
-header h3 {
+header h1{
+    color: white;
+}
+
+#wrapper
+{
+    margin: 0 auto;
+    background-color: aqua;
+
+}
+
+nav{
+    width: 100px;
+    float: left;
+    text-align: center;
+
+}
+
+main{
+    background-color: white;
+    margin-left: 150px;
+    padding: 10px;
+
+}
+
+#colortxt{
+    margin: 10px;
+    margin-left: 36%;
+    color: gray;
+
+}
+
+#leftpart
+{
+    margin: 2%;
+    color: gray;
+
+}
+
+h1{
+    padding-top: 1.5%;
+    padding-left: 2%;
+
+}
+
+nav a{
+text-decoration: none;
+padding-left: 10px;
+color: rgb(2, 2, 82);
+
+}
+
+
+nav a:link{
+    color: rgb(5, 5, 85);
+    font-style: bold;
+    font-size: 1.5em;
+    }
+
+    nav ul{
+        list-style: none;
+        text-align: left;
+        padding-left: 10px;
+        font-size: 12.5px;
+        font-weight: bold;
+
+    }
+
+    main img{
+
+        float: left;
+    padding-right: 20px;
+
+    }
+    footer
+    {
+        text-align: center;
+    }
+/* header h3 {
     color: white;
     padding-top: 40px;
     padding-left: 20px;
@@ -63,4 +144,4 @@ div {
 
 #colorg {
     color: gray;
-}
+} */
